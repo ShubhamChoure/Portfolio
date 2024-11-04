@@ -17,7 +17,7 @@ function Hero() {
         animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 10 }}
         transition={{ duration: 0.5 , delay:staggerDelay}}
       >
-        Hello&lsquo; I&apos;m Shubham Dev!
+        Hello&comma; I&apos;m Shubham Dev!
       </motion.h1>
       <motion.span className="font-cursive text-xl"
        initial={{ opacity: 0, y: 10 }}
