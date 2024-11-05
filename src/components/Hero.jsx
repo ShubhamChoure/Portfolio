@@ -4,7 +4,7 @@ import { motion, useInView } from 'framer-motion';
 
 function Hero() {
   const ref = useRef();
-  const isInView = useInView(ref); // Remove { once: true }
+  const isInView = useInView(ref,{amount:0.2}); // Remove { once: true }
   const staggerDelay = 0.3;
   return (
     <motion.div
