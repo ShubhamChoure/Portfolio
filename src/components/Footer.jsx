@@ -10,7 +10,7 @@ function Footer() {
           <h3 className="text-xl font-bold mb-2">Contact Me</h3>
           <p className="flex items-center mb-1">
             <Mail className="mr-2" size={16} />
-            shubhamprakashchoureps@gmail.com
+            shubhamchoureps@gmail.com
           </p>
           <p className="flex items-center">
             <Phone className="mr-2" size={16} />

@@ -76,7 +76,7 @@ export default function Home() {
   const projectsRef = useRef(null);
   const isNavTxtInView = useInView(navTextRef);
   const isLogoInView = useInView(logoRef);
-  const isProjectsInView = useInView(projectsRef, { amount: 0.2 });
+  const isProjectsInView = useInView(projectsRef, { amount: 0.1 });
   const teamRef =useRef(null);
   const isTeamInView = useInView(teamRef , {amount:0.2});
   const staggerDelay = 0.2;
@@ -383,7 +383,7 @@ export default function Home() {
          transition={{duration:0.5,delay:staggerDelayTeam}}
          >Meet The Team</motion.h2>
          </motion.div>
-         <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-60">
+         <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-60">
                   <motion.div className=" flex flex-col justify-center items-center gap-1"
                   initial={{y:10,opacity:0}}
                   animate={{y:isTeamInView?0:10,opacity:isTeamInView?1:0}}
